@@ -1,0 +1,1187 @@
+.
+├── 5-Workshop-backup
+│   ├── 5.1-Workshop-overview
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5.2-Prerequiste
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5.3-S3-vpc
+│   │   ├── 5.3.1-create-gwe
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.3.2-test-gwe
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5.4-S3-onprem
+│   │   ├── 5.4.1-prepare
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.4.2-create-interface-enpoint
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.4.3-test-endpoint
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.4.4-dns-simulation
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5.5-Policy
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5.6-Cleanup
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── _index.md
+│   └── _index.vi.md
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   ├── 1-Worklog
+│   │   ├── 1.1-Week1
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.2-Week2
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.3-Week3
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.4-Week4
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.5-Week5
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.6-Week6
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 1.7-Week7
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 2-Proposal
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 3-BlogsPosted
+│   │   ├── 3.1-Blog1
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 3.2-Blog2
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 3.3-Blog3
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 4-EventParticipated
+│   │   ├── 4.1-Event1
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 4.2-Event2
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 5-Workshop
+│   │   ├── 5.1-overview
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.2-architecture
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.3-prerequisites
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.4-aws-iot-configuration
+│   │   │   ├── 5.4.1-create-thing
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.4.2-create-certificate
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.4.3-attach-policy
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.4.4-mqtt-test-client
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.5-esp32-development
+│   │   │   ├── 5.5.1-platformio
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.5.2-wifi
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.5.3-mqtt-tls
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.5.4-telemetry
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.5.5-relay-control
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.6-cloud-integration
+│   │   │   ├── 5.6.1-iot-rules
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.6.2-dynamodb
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.6.3-sns
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── 5.6.4-email-notification
+│   │   │   │   ├── _index.md
+│   │   │   │   └── _index.vi.md
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.7-testing
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── 5.8-cleanup
+│   │   │   ├── _index.md
+│   │   │   └── _index.vi.md
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 6-Self-evaluation
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── 7-Feedback
+│   │   ├── _index.md
+│   │   └── _index.vi.md
+│   ├── _index.md
+│   └── _index.vi.md
+├── layouts
+│   ├── partials
+│   │   ├── custom-footer.html
+│   │   ├── logo.html
+│   │   └── menu-footer.html
+│   └── shortcodes
+│       ├── ghcontributors.html
+│       ├── tab.html
+│       └── tabs.html
+├── pic
+│   ├── 5.4.1
+│   │   ├── activate-certificate.png
+│   │   ├── attach-policy.png
+│   │   ├── attach-thing.png
+│   │   ├── aws-console-home.png
+│   │   ├── certificate-generated.png
+│   │   ├── create-certificate.png
+│   │   ├── create-thing.png
+│   │   ├── download-certificates.png
+│   │   ├── esp32-s3-board.jpg
+│   │   ├── iot-core-dashboard.png
+│   │   ├── thing-created.png
+│   │   ├── thing-name.png
+│   │   └── thing-summary.png
+│   ├── 5.4.2
+│   │   ├── attach-iot-policy.png
+│   │   └── create-certificate.png
+│   ├── 5.4.3
+│   │   └── iot-policy-details.png
+│   ├── 5.4.4
+│   │   └── mqtt-test-client.png
+│   ├── 5.5.1
+│   │   └── platformio-project.png
+│   ├── 5.5.2
+│   │   ├── telemetry-json.png
+│   │   ├── wifi-connected.png
+│   │   └── wifi-connecting.png
+│   ├── 5.5.3
+│   │   └── mqtt-tls-connected.png
+│   ├── 5.5.4
+│   │   ├── telemetry-published.png
+│   │   └── telemetry-received.png
+│   ├── 5.5.5
+│   │   ├── publish-relay-command.png
+│   │   └── relay-command-received.png
+│   ├── 5.6.1
+│   │   ├── door-alert-rule.png
+│   │   ├── iot-rules-dashboard.png
+│   │   └── telemetry-rule.png
+│   ├── 5.6.2
+│   │   └── dynamodb-items.png
+│   ├── 5.6.3
+│   │   └── sns-topic.png
+│   └── 5.6.4
+│       └── sns-email-notification.png
+├── public
+│   ├── 1-worklog
+│   │   ├── 1.1-week1
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.2-week2
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.3-week3
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.4-week4
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.5-week5
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.6-week6
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 1.7-week7
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 2-proposal
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 3-blogsposted
+│   │   ├── 3.1-blog1
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 3.2-blog2
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 3.3-blog3
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 404.html
+│   ├── 4-eventparticipated
+│   │   ├── 4.1-event1
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 4.2-event2
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 5-workshop
+│   │   ├── 5.1-overview
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.2-architecture
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.3-prerequisites
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.4-aws-iot-configuration
+│   │   │   ├── 5.4.1-create-thing
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.4.2-create-certificate
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.4.3-attach-policy
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.4.4-mqtt-test-client
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.5-esp32-development
+│   │   │   ├── 5.5.1-platformio
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.5.2-wifi
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.5.3-mqtt-tls
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.5.4-telemetry
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.5.5-relay-control
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.6-cloud-integration
+│   │   │   ├── 5.6.1-iot-rules
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.6.2-dynamodb
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.6.3-sns
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.6.4-email-notification
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.7-testing
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5.8-cleanup
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 6-self-evaluation
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── 7-feedback
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── AWS_Logo.svg
+│   ├── categories
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── css
+│   │   ├── atom-one-dark-reasonable.css
+│   │   ├── auto-complete.css
+│   │   ├── featherlight.min.css
+│   │   ├── fontawesome-all.min.css
+│   │   ├── hugo-theme.css
+│   │   ├── hybrid.css
+│   │   ├── nucleus.css
+│   │   ├── perfect-scrollbar.min.css
+│   │   ├── tags.css
+│   │   ├── theme-blue.css
+│   │   ├── theme.css
+│   │   ├── theme-green.css
+│   │   ├── theme-mine.css
+│   │   ├── theme-red.css
+│   │   └── theme-workshop.css
+│   ├── en
+│   │   ├── index.html
+│   │   └── sitemap.xml
+│   ├── fonts
+│   │   ├── AmazonEmber_RgIt.ttf
+│   │   ├── AmazonEmber_Rg.ttf
+│   │   ├── AmazonEmber_W_Rg.eot
+│   │   ├── AmazonEmber_W_RgIt.eot
+│   │   ├── AmazonEmber_W_RgIt.woff
+│   │   ├── AmazonEmber_W_RgIt.woff2
+│   │   ├── AmazonEmber_W_Rg.woff
+│   │   ├── AmazonEmber_W_Rg.woff2
+│   │   ├── Inconsolata.eot
+│   │   ├── Inconsolata.svg
+│   │   ├── Inconsolata.ttf
+│   │   ├── Inconsolata.woff
+│   │   ├── monogramos-webfont.eot
+│   │   ├── monogramos-webfont.svg
+│   │   ├── monogramos-webfont.ttf
+│   │   ├── monogramos-webfont.woff
+│   │   ├── monogramos-webfont.woff2
+│   │   ├── Novecentosanswide-Normal-webfont.eot
+│   │   ├── Novecentosanswide-Normal-webfont.svg
+│   │   ├── Novecentosanswide-Normal-webfont.ttf
+│   │   ├── Novecentosanswide-Normal-webfont.woff
+│   │   ├── Novecentosanswide-Normal-webfont.woff2
+│   │   ├── Novecentosanswide-UltraLight-webfont.eot
+│   │   ├── Novecentosanswide-UltraLight-webfont.svg
+│   │   ├── Novecentosanswide-UltraLight-webfont.ttf
+│   │   ├── Novecentosanswide-UltraLight-webfont.woff
+│   │   ├── Novecentosanswide-UltraLight-webfont.woff2
+│   │   ├── Work_Sans_200.eot
+│   │   ├── Work_Sans_200.svg
+│   │   ├── Work_Sans_200.ttf
+│   │   ├── Work_Sans_200.woff
+│   │   ├── Work_Sans_200.woff2
+│   │   ├── Work_Sans_300.eot
+│   │   ├── Work_Sans_300.svg
+│   │   ├── Work_Sans_300.ttf
+│   │   ├── Work_Sans_300.woff
+│   │   ├── Work_Sans_300.woff2
+│   │   ├── Work_Sans_500.eot
+│   │   ├── Work_Sans_500.svg
+│   │   ├── Work_Sans_500.ttf
+│   │   ├── Work_Sans_500.woff
+│   │   └── Work_Sans_500.woff2
+│   ├── images
+│   │   ├── 2-Proposal
+│   │   │   ├── architect.jpeg
+│   │   │   ├── edge_architecture.jpeg
+│   │   │   └── platform_architecture.jpeg
+│   │   ├── 5-Workshop-backup
+│   │   │   ├── 5.1-Workshop-overview
+│   │   │   │   └── diagram1.png
+│   │   │   ├── 5.2-Prerequisite
+│   │   │   │   ├── complete.png
+│   │   │   │   ├── create-stack1.png
+│   │   │   │   ├── create-stack2.png
+│   │   │   │   ├── ec2.png
+│   │   │   │   ├── region.png
+│   │   │   │   └── vpcs.png
+│   │   │   ├── 5.3-S3-vpc
+│   │   │   │   ├── bucket-name.png
+│   │   │   │   ├── bucket-success.png
+│   │   │   │   ├── check-s3-bucket.png
+│   │   │   │   ├── cli1.png
+│   │   │   │   ├── cli-file.png
+│   │   │   │   ├── complete.png
+│   │   │   │   ├── create-bucket.png
+│   │   │   │   ├── create-button.png
+│   │   │   │   ├── create-s3-gwe1.png
+│   │   │   │   ├── diagram2.png
+│   │   │   │   ├── endpoints.png
+│   │   │   │   ├── overview.png
+│   │   │   │   ├── policy.png
+│   │   │   │   ├── services.png
+│   │   │   │   ├── sm1.png
+│   │   │   │   ├── sm.png
+│   │   │   │   ├── start-session.png
+│   │   │   │   ├── start-session-success.png
+│   │   │   │   ├── uploaded.png
+│   │   │   │   └── vpc.png
+│   │   │   ├── 5.4-S3-onprem
+│   │   │   │   ├── add-route.png
+│   │   │   │   ├── check-bucket.png
+│   │   │   │   ├── cli1.png
+│   │   │   │   ├── cli2.png
+│   │   │   │   ├── create-record1.png
+│   │   │   │   ├── create-stack-button.png
+│   │   │   │   ├── create-stack-complete.png
+│   │   │   │   ├── create-stack.png
+│   │   │   │   ├── diagram3.png
+│   │   │   │   ├── dig.png
+│   │   │   │   ├── dns.png
+│   │   │   │   ├── ec2-onprem-id.png
+│   │   │   │   ├── endpoint.png
+│   │   │   │   ├── hosted-zone.png
+│   │   │   │   ├── InterfaceEndpointArchitecture.png
+│   │   │   │   ├── record1.png
+│   │   │   │   ├── record2.png
+│   │   │   │   ├── result.png
+│   │   │   │   ├── route53-1.png
+│   │   │   │   ├── route53-2.png
+│   │   │   │   ├── route53-3.png
+│   │   │   │   ├── route53-4.png
+│   │   │   │   ├── route53-5.png
+│   │   │   │   ├── route53-6.png
+│   │   │   │   ├── route53-7.png
+│   │   │   │   ├── route53.png
+│   │   │   │   ├── rt.png
+│   │   │   │   ├── s3-interface-endpoint1.png
+│   │   │   │   ├── s3-interface-endpoint2.png
+│   │   │   │   ├── s3-interface-endpoint3.png
+│   │   │   │   ├── s3-interface-endpoint4.png
+│   │   │   │   ├── s3-interface-endpoint5.png
+│   │   │   │   ├── s3-interface-endpoint-success.png
+│   │   │   │   ├── start-session.png
+│   │   │   │   ├── subnet.png
+│   │   │   │   ├── terminal.png
+│   │   │   │   └── test1.png
+│   │   │   ├── 5.5-Policy
+│   │   │   │   ├── create-bucket.png
+│   │   │   │   ├── create-bucket-success.png
+│   │   │   │   ├── error.png
+│   │   │   │   ├── policy1.png
+│   │   │   │   ├── policy2.png
+│   │   │   │   ├── s3-bucket-policy.png
+│   │   │   │   ├── success.png
+│   │   │   │   ├── test1.png
+│   │   │   │   ├── test2-fail.png
+│   │   │   │   ├── test2.png
+│   │   │   │   ├── test2-success.png
+│   │   │   │   └── VPCEndpointPolicyDiagram.png
+│   │   │   └── 5.6-Cleanup
+│   │   │       ├── delete-s3.png
+│   │   │       ├── delete-stack.png
+│   │   │       ├── delete-zone.png
+│   │   │       └── vpc.png
+│   │   ├── architect.jpeg
+│   │   ├── avatar.png
+│   │   ├── clippy.svg
+│   │   ├── ev12.jpg
+│   │   ├── ev1.jpg
+│   │   ├── ev2.jpg
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon.png
+│   │   ├── gopher-404.jpg
+│   │   └── workshop
+│   │       ├── 5.2
+│   │       │   └── smart-home-architecture.png
+│   │       ├── 5.4.1
+│   │       │   ├── activate-certificate.png
+│   │       │   ├── attach-policy.png
+│   │       │   ├── attach-thing.png
+│   │       │   ├── aws-console-home.png
+│   │       │   ├── certificate-generated.png
+│   │       │   ├── create-certificate.png
+│   │       │   ├── create-thing.png
+│   │       │   ├── download-certificates.png
+│   │       │   ├── esp32-s3-board.jpg
+│   │       │   ├── iot-core-dashboard.png
+│   │       │   ├── thing-created.png
+│   │       │   ├── thing-name.png
+│   │       │   └── thing-summary.png
+│   │       ├── 5.4.2
+│   │       │   ├── activate-certificate.png
+│   │       │   ├── attach-iot-policy.png
+│   │       │   ├── certificate-generated.png
+│   │       │   ├── create-certificate.png
+│   │       │   └── download-certificates.png
+│   │       ├── 5.4.3
+│   │       │   ├── attach-iot-policy.png
+│   │       │   └── iot-policy-details.png
+│   │       ├── 5.4.4
+│   │       │   └── mqtt-test-client.png
+│   │       ├── 5.5.1
+│   │       │   └── platformio-project.png
+│   │       ├── 5.5.2
+│   │       │   ├── telemetry-json.png
+│   │       │   ├── wifi-connected.png
+│   │       │   └── wifi-connecting.png
+│   │       ├── 5.5.3
+│   │       │   └── mqtt-tls-connected.png
+│   │       ├── 5.5.4
+│   │       │   ├── telemetry-published.png
+│   │       │   └── telemetry-received.png
+│   │       ├── 5.5.5
+│   │       │   ├── publish-relay-command.png
+│   │       │   └── relay-command-received.png
+│   │       ├── 5.6.1
+│   │       │   ├── door-alert-rule.png
+│   │       │   ├── iot-rules-dashboard.png
+│   │       │   └── telemetry-rule.png
+│   │       ├── 5.6.2
+│   │       │   └── dynamodb-items.png
+│   │       ├── 5.6.3
+│   │       │   └── sns-topic.png
+│   │       └── 5.6.4
+│   │           └── sns-email-notification.png
+│   ├── index.html
+│   ├── index.json
+│   ├── index.xml
+│   ├── js
+│   │   ├── auto-complete.js
+│   │   ├── clipboard.min.js
+│   │   ├── featherlight.min.js
+│   │   ├── highlight.pack.js
+│   │   ├── hugo-learn.js
+│   │   ├── jquery-3.3.1.min.js
+│   │   ├── jquery.sticky.js
+│   │   ├── learn.js
+│   │   ├── lunr.min.js
+│   │   ├── modernizr.custom-3.6.0.js
+│   │   ├── perfect-scrollbar.jquery.min.js
+│   │   ├── perfect-scrollbar.min.js
+│   │   └── search.js
+│   ├── mermaid
+│   │   ├── mermaid.css
+│   │   ├── mermaid.dark.css
+│   │   ├── mermaid.forest.css
+│   │   └── mermaid.js
+│   ├── sitemap.xml
+│   ├── tags
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── vi
+│   │   ├── 1-worklog
+│   │   │   ├── 1.1-week1
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.2-week2
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.3-week3
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.4-week4
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.5-week5
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.6-week6
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 1.7-week7
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 2-proposal
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 3-blogsposted
+│   │   │   ├── 3.1-blog1
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 3.2-blog2
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 3.3-blog3
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 404.html
+│   │   ├── 4-eventparticipated
+│   │   │   ├── 4.1-event1
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 4.2-event2
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 5-workshop
+│   │   │   ├── 5.1-overview
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.2-architecture
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.3-prerequisites
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.4-aws-iot-configuration
+│   │   │   │   ├── 5.4.1-create-thing
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.4.2-create-certificate
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.4.3-attach-policy
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.4.4-mqtt-test-client
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.5-esp32-development
+│   │   │   │   ├── 5.5.1-platformio
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.5.2-wifi
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.5.3-mqtt-tls
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.5.4-telemetry
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.5.5-relay-control
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.6-cloud-integration
+│   │   │   │   ├── 5.6.1-iot-rules
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.6.2-dynamodb
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.6.3-sns
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── 5.6.4-email-notification
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   └── index.xml
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.7-testing
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── 5.8-cleanup
+│   │   │   │   ├── index.html
+│   │   │   │   └── index.xml
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 6-self-evaluation
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── 7-feedback
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── categories
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   ├── index.json
+│   │   ├── index.xml
+│   │   ├── sitemap.xml
+│   │   └── tags
+│   │       ├── index.html
+│   │       └── index.xml
+│   └── webfonts
+│       ├── fa-brands-400.eot
+│       ├── fa-brands-400.svg
+│       ├── fa-brands-400.ttf
+│       ├── fa-brands-400.woff
+│       ├── fa-brands-400.woff2
+│       ├── fa-regular-400.eot
+│       ├── fa-regular-400.svg
+│       ├── fa-regular-400.ttf
+│       ├── fa-regular-400.woff
+│       ├── fa-regular-400.woff2
+│       ├── fa-solid-900.eot
+│       ├── fa-solid-900.svg
+│       ├── fa-solid-900.ttf
+│       ├── fa-solid-900.woff
+│       └── fa-solid-900.woff2
+├── resources
+│   └── _gen
+│       ├── assets
+│       └── images
+├── static
+│   ├── AWS_Logo.svg
+│   ├── css
+│   │   ├── theme-mine.css
+│   │   └── theme-workshop.css
+│   ├── fonts
+│   │   ├── monogramos-webfont.eot
+│   │   ├── monogramos-webfont.svg
+│   │   ├── monogramos-webfont.ttf
+│   │   ├── monogramos-webfont.woff
+│   │   └── monogramos-webfont.woff2
+│   └── images
+│       ├── 2-Proposal
+│       │   ├── architect.jpeg
+│       │   ├── edge_architecture.jpeg
+│       │   └── platform_architecture.jpeg
+│       ├── 5-Workshop-backup
+│       │   ├── 5.1-Workshop-overview
+│       │   │   └── diagram1.png
+│       │   ├── 5.2-Prerequisite
+│       │   │   ├── complete.png
+│       │   │   ├── create-stack1.png
+│       │   │   ├── create-stack2.png
+│       │   │   ├── ec2.png
+│       │   │   ├── region.png
+│       │   │   └── vpcs.png
+│       │   ├── 5.3-S3-vpc
+│       │   │   ├── bucket-name.png
+│       │   │   ├── bucket-success.png
+│       │   │   ├── check-s3-bucket.png
+│       │   │   ├── cli1.png
+│       │   │   ├── cli-file.png
+│       │   │   ├── complete.png
+│       │   │   ├── create-bucket.png
+│       │   │   ├── create-button.png
+│       │   │   ├── create-s3-gwe1.png
+│       │   │   ├── diagram2.png
+│       │   │   ├── endpoints.png
+│       │   │   ├── overview.png
+│       │   │   ├── policy.png
+│       │   │   ├── services.png
+│       │   │   ├── sm1.png
+│       │   │   ├── sm.png
+│       │   │   ├── start-session.png
+│       │   │   ├── start-session-success.png
+│       │   │   ├── uploaded.png
+│       │   │   └── vpc.png
+│       │   ├── 5.4-S3-onprem
+│       │   │   ├── add-route.png
+│       │   │   ├── check-bucket.png
+│       │   │   ├── cli1.png
+│       │   │   ├── cli2.png
+│       │   │   ├── create-record1.png
+│       │   │   ├── create-stack-button.png
+│       │   │   ├── create-stack-complete.png
+│       │   │   ├── create-stack.png
+│       │   │   ├── diagram3.png
+│       │   │   ├── dig.png
+│       │   │   ├── dns.png
+│       │   │   ├── ec2-onprem-id.png
+│       │   │   ├── endpoint.png
+│       │   │   ├── hosted-zone.png
+│       │   │   ├── InterfaceEndpointArchitecture.png
+│       │   │   ├── record1.png
+│       │   │   ├── record2.png
+│       │   │   ├── result.png
+│       │   │   ├── route53-1.png
+│       │   │   ├── route53-2.png
+│       │   │   ├── route53-3.png
+│       │   │   ├── route53-4.png
+│       │   │   ├── route53-5.png
+│       │   │   ├── route53-6.png
+│       │   │   ├── route53-7.png
+│       │   │   ├── route53.png
+│       │   │   ├── rt.png
+│       │   │   ├── s3-interface-endpoint1.png
+│       │   │   ├── s3-interface-endpoint2.png
+│       │   │   ├── s3-interface-endpoint3.png
+│       │   │   ├── s3-interface-endpoint4.png
+│       │   │   ├── s3-interface-endpoint5.png
+│       │   │   ├── s3-interface-endpoint-success.png
+│       │   │   ├── start-session.png
+│       │   │   ├── subnet.png
+│       │   │   ├── terminal.png
+│       │   │   └── test1.png
+│       │   ├── 5.5-Policy
+│       │   │   ├── create-bucket.png
+│       │   │   ├── create-bucket-success.png
+│       │   │   ├── error.png
+│       │   │   ├── policy1.png
+│       │   │   ├── policy2.png
+│       │   │   ├── s3-bucket-policy.png
+│       │   │   ├── success.png
+│       │   │   ├── test1.png
+│       │   │   ├── test2-fail.png
+│       │   │   ├── test2.png
+│       │   │   ├── test2-success.png
+│       │   │   └── VPCEndpointPolicyDiagram.png
+│       │   └── 5.6-Cleanup
+│       │       ├── delete-s3.png
+│       │       ├── delete-stack.png
+│       │       ├── delete-zone.png
+│       │       └── vpc.png
+│       ├── favicon-16x16.png
+│       ├── favicon.png
+│       └── workshop
+│           ├── 5.2
+│           │   └── smart-home-architecture.png
+│           ├── 5.4.1
+│           │   ├── activate-certificate.png
+│           │   ├── attach-policy.png
+│           │   ├── attach-thing.png
+│           │   ├── aws-console-home.png
+│           │   ├── certificate-generated.png
+│           │   ├── create-certificate.png
+│           │   ├── create-thing.png
+│           │   ├── download-certificates.png
+│           │   ├── esp32-s3-board.jpg
+│           │   ├── iot-core-dashboard.png
+│           │   ├── thing-created.png
+│           │   ├── thing-name.png
+│           │   └── thing-summary.png
+│           ├── 5.4.2
+│           │   ├── activate-certificate.png
+│           │   ├── attach-iot-policy.png
+│           │   ├── certificate-generated.png
+│           │   ├── create-certificate.png
+│           │   └── download-certificates.png
+│           ├── 5.4.3
+│           │   ├── attach-iot-policy.png
+│           │   └── iot-policy-details.png
+│           ├── 5.4.4
+│           │   └── mqtt-test-client.png
+│           ├── 5.5.1
+│           │   └── platformio-project.png
+│           ├── 5.5.2
+│           │   ├── telemetry-json.png
+│           │   ├── wifi-connected.png
+│           │   └── wifi-connecting.png
+│           ├── 5.5.3
+│           │   └── mqtt-tls-connected.png
+│           ├── 5.5.4
+│           │   ├── telemetry-published.png
+│           │   └── telemetry-received.png
+│           ├── 5.5.5
+│           │   ├── publish-relay-command.png
+│           │   └── relay-command-received.png
+│           ├── 5.6.1
+│           │   ├── door-alert-rule.png
+│           │   ├── iot-rules-dashboard.png
+│           │   └── telemetry-rule.png
+│           ├── 5.6.2
+│           │   └── dynamodb-items.png
+│           ├── 5.6.3
+│           │   └── sns-topic.png
+│           └── 5.6.4
+│               └── sns-email-notification.png
+├── themes
+│   └── hugo-theme-learn
+│       ├── archetypes
+│       │   ├── chapter.md
+│       │   └── default.md
+│       ├── CHANGELOG.md
+│       ├── exampleSite
+│       │   ├── config.toml
+│       │   ├── content
+│       │   │   ├── basics
+│       │   │   │   ├── configuration
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   └── _index.fr.md
+│       │   │   │   ├── _index.en.md
+│       │   │   │   ├── _index.fr.md
+│       │   │   │   ├── _index.zh.md
+│       │   │   │   ├── installation
+│       │   │   │   │   ├── images
+│       │   │   │   │   │   └── chapter.png
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   └── _index.fr.md
+│       │   │   │   ├── requirements
+│       │   │   │   │   ├── images
+│       │   │   │   │   │   └── magic.gif
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   └── _index.fr.md
+│       │   │   │   └── style-customization
+│       │   │   │       ├── images
+│       │   │   │       │   ├── blue-variant.png
+│       │   │   │       │   ├── green-variant.png
+│       │   │   │       │   └── red-variant.png
+│       │   │   │       ├── _index.en.md
+│       │   │   │       └── _index.fr.md
+│       │   │   ├── cont
+│       │   │   │   ├── archetypes.en.md
+│       │   │   │   ├── archetypes.fr.md
+│       │   │   │   ├── i18n
+│       │   │   │   │   ├── images
+│       │   │   │   │   │   └── i18n-menu.gif
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   └── _index.fr.md
+│       │   │   │   ├── icons.en.md
+│       │   │   │   ├── _index.en.md
+│       │   │   │   ├── _index.fr.md
+│       │   │   │   ├── markdown.en.md
+│       │   │   │   ├── markdown.fr.md
+│       │   │   │   ├── menushortcuts.en.md
+│       │   │   │   ├── menushortcuts.fr.md
+│       │   │   │   ├── pages
+│       │   │   │   │   ├── images
+│       │   │   │   │   │   ├── frontmatter-icon.png
+│       │   │   │   │   │   ├── pages-chapter.png
+│       │   │   │   │   │   └── pages-default.png
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   └── _index.fr.md
+│       │   │   │   ├── tags.en.md
+│       │   │   │   └── tags.fr.md
+│       │   │   ├── credits.en.md
+│       │   │   ├── credits.fr.md
+│       │   │   ├── _index.en.md
+│       │   │   ├── _index.fr.md
+│       │   │   ├── shortcodes
+│       │   │   │   ├── attachments.en.files
+│       │   │   │   │   ├── adivorciarsetoca00cape.pdf
+│       │   │   │   │   ├── BachGavotteShort.mp3
+│       │   │   │   │   ├── Carroll_AliceAuPaysDesMerveilles.pdf
+│       │   │   │   │   ├── hugo.png
+│       │   │   │   │   └── movieselectricsheep-flock-244-32500-2.mp4
+│       │   │   │   ├── attachments.en.md
+│       │   │   │   ├── attachments.fr.files
+│       │   │   │   │   ├── adivorciarsetoca00cape.pdf
+│       │   │   │   │   ├── BachGavotteShort.mp3
+│       │   │   │   │   ├── Carroll_AliceAuPaysDesMerveilles.pdf
+│       │   │   │   │   ├── hugo.png
+│       │   │   │   │   └── movieselectricsheep-flock-244-32500-2.mp4
+│       │   │   │   ├── attachments.fr.md
+│       │   │   │   ├── button.en.md
+│       │   │   │   ├── button.fr.md
+│       │   │   │   ├── children
+│       │   │   │   │   ├── children-1
+│       │   │   │   │   │   ├── children-1-1
+│       │   │   │   │   │   │   ├── children-1-1-1
+│       │   │   │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   │   │   └── _index.fr.md
+│       │   │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   │   └── _index.fr.md
+│       │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   └── _index.fr.md
+│       │   │   │   │   ├── children-2
+│       │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   ├── _index.fr.md
+│       │   │   │   │   │   ├── test3.en.md
+│       │   │   │   │   │   └── test3.fr.md
+│       │   │   │   │   ├── children-3
+│       │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   └── _index.fr.md
+│       │   │   │   │   ├── children-4
+│       │   │   │   │   │   ├── _index.en.md
+│       │   │   │   │   │   └── _index.fr.md
+│       │   │   │   │   ├── _index.en.md
+│       │   │   │   │   ├── _index.fr.md
+│       │   │   │   │   ├── test.en.md
+│       │   │   │   │   └── test.fr.md
+│       │   │   │   ├── expand.en.md
+│       │   │   │   ├── expand.fr.md
+│       │   │   │   ├── _index.en.md
+│       │   │   │   ├── _index.fr.md
+│       │   │   │   ├── mermaid.en.md
+│       │   │   │   ├── mermaid.fr.md
+│       │   │   │   ├── notice.en.md
+│       │   │   │   ├── notice.fr.md
+│       │   │   │   ├── siteparam.en.md
+│       │   │   │   └── siteparam.fr.md
+│       │   │   ├── showcase.en.md
+│       │   │   └── showcase.fr.md
+│       │   ├── layouts
+│       │   │   ├── partials
+│       │   │   │   ├── custom-footer.html
+│       │   │   │   ├── logo.html
+│       │   │   │   └── menu-footer.html
+│       │   │   └── shortcodes
+│       │   │       └── ghcontributors.html
+│       │   ├── LICENSE.md
+│       │   └── static
+│       │       ├── css
+│       │       │   └── theme-mine.css
+│       │       ├── fonts
+│       │       │   ├── monogramos-webfont.eot
+│       │       │   ├── monogramos-webfont.svg
+│       │       │   ├── monogramos-webfont.ttf
+│       │       │   ├── monogramos-webfont.woff
+│       │       │   └── monogramos-webfont.woff2
+│       │       └── images
+│       │           └── showcase
+│       │               ├── inteliver_docs.png
+│       │               ├── tat.png
+│       │               └── tshark_dev.png
+│       ├── i18n
+│       │   ├── ar.toml
+│       │   ├── de.toml
+│       │   ├── en.toml
+│       │   ├── es.toml
+│       │   ├── fr.toml
+│       │   ├── hi.toml
+│       │   ├── id.toml
+│       │   ├── ja.toml
+│       │   ├── nl.toml
+│       │   ├── pt.toml
+│       │   ├── ru.toml
+│       │   ├── tr.toml
+│       │   └── zh-cn.toml
+│       ├── images
+│       │   ├── screenshot.png
+│       │   └── tn.png
+│       ├── layouts
+│       │   ├── 404.html
+│       │   ├── _default
+│       │   │   ├── list.html
+│       │   │   └── single.html
+│       │   ├── index.html
+│       │   ├── index.json
+│       │   ├── partials
+│       │   │   ├── custom-comments.html
+│       │   │   ├── custom-footer.html
+│       │   │   ├── custom-header.html
+│       │   │   ├── favicon.html
+│       │   │   ├── footer.html
+│       │   │   ├── header.html
+│       │   │   ├── logo.html
+│       │   │   ├── menu-footer.html
+│       │   │   ├── menu.html
+│       │   │   ├── meta.html
+│       │   │   ├── search.html
+│       │   │   ├── tags.html
+│       │   │   └── toc.html
+│       │   └── shortcodes
+│       │       ├── attachments.html
+│       │       ├── button.html
+│       │       ├── children.html
+│       │       ├── expand.html
+│       │       ├── mermaid.html
+│       │       ├── notice.html
+│       │       ├── ref.html
+│       │       ├── relref.html
+│       │       └── siteparam.html
+│       ├── LICENSE.md
+│       ├── netlify.toml
+│       ├── README.md
+│       ├── static
+│       │   ├── css
+│       │   │   ├── atom-one-dark-reasonable.css
+│       │   │   ├── auto-complete.css
+│       │   │   ├── featherlight.min.css
+│       │   │   ├── fontawesome-all.min.css
+│       │   │   ├── hugo-theme.css
+│       │   │   ├── hybrid.css
+│       │   │   ├── nucleus.css
+│       │   │   ├── perfect-scrollbar.min.css
+│       │   │   ├── tags.css
+│       │   │   ├── theme-blue.css
+│       │   │   ├── theme.css
+│       │   │   ├── theme-green.css
+│       │   │   └── theme-red.css
+│       │   ├── fonts
+│       │   │   ├── AmazonEmber_RgIt.ttf
+│       │   │   ├── AmazonEmber_Rg.ttf
+│       │   │   ├── AmazonEmber_W_Rg.eot
+│       │   │   ├── AmazonEmber_W_RgIt.eot
+│       │   │   ├── AmazonEmber_W_RgIt.woff
+│       │   │   ├── AmazonEmber_W_RgIt.woff2
+│       │   │   ├── AmazonEmber_W_Rg.woff
+│       │   │   ├── AmazonEmber_W_Rg.woff2
+│       │   │   ├── Inconsolata.eot
+│       │   │   ├── Inconsolata.svg
+│       │   │   ├── Inconsolata.ttf
+│       │   │   ├── Inconsolata.woff
+│       │   │   ├── Novecentosanswide-Normal-webfont.eot
+│       │   │   ├── Novecentosanswide-Normal-webfont.svg
+│       │   │   ├── Novecentosanswide-Normal-webfont.ttf
+│       │   │   ├── Novecentosanswide-Normal-webfont.woff
+│       │   │   ├── Novecentosanswide-Normal-webfont.woff2
+│       │   │   ├── Novecentosanswide-UltraLight-webfont.eot
+│       │   │   ├── Novecentosanswide-UltraLight-webfont.svg
+│       │   │   ├── Novecentosanswide-UltraLight-webfont.ttf
+│       │   │   ├── Novecentosanswide-UltraLight-webfont.woff
+│       │   │   ├── Novecentosanswide-UltraLight-webfont.woff2
+│       │   │   ├── Work_Sans_200.eot
+│       │   │   ├── Work_Sans_200.svg
+│       │   │   ├── Work_Sans_200.ttf
+│       │   │   ├── Work_Sans_200.woff
+│       │   │   ├── Work_Sans_200.woff2
+│       │   │   ├── Work_Sans_300.eot
+│       │   │   ├── Work_Sans_300.svg
+│       │   │   ├── Work_Sans_300.ttf
+│       │   │   ├── Work_Sans_300.woff
+│       │   │   ├── Work_Sans_300.woff2
+│       │   │   ├── Work_Sans_500.eot
+│       │   │   ├── Work_Sans_500.svg
+│       │   │   ├── Work_Sans_500.ttf
+│       │   │   ├── Work_Sans_500.woff
+│       │   │   └── Work_Sans_500.woff2
+│       │   ├── images
+│       │   │   ├── architect.jpeg
+│       │   │   ├── avatar.png
+│       │   │   ├── clippy.svg
+│       │   │   ├── ev12.jpg
+│       │   │   ├── ev1.jpg
+│       │   │   ├── ev2.jpg
+│       │   │   ├── favicon.png
+│       │   │   └── gopher-404.jpg
+│       │   ├── js
+│       │   │   ├── auto-complete.js
+│       │   │   ├── clipboard.min.js
+│       │   │   ├── featherlight.min.js
+│       │   │   ├── highlight.pack.js
+│       │   │   ├── hugo-learn.js
+│       │   │   ├── jquery-3.3.1.min.js
+│       │   │   ├── jquery.sticky.js
+│       │   │   ├── learn.js
+│       │   │   ├── lunr.min.js
+│       │   │   ├── modernizr.custom-3.6.0.js
+│       │   │   ├── perfect-scrollbar.jquery.min.js
+│       │   │   ├── perfect-scrollbar.min.js
+│       │   │   └── search.js
+│       │   ├── mermaid
+│       │   │   ├── mermaid.css
+│       │   │   ├── mermaid.dark.css
+│       │   │   ├── mermaid.forest.css
+│       │   │   └── mermaid.js
+│       │   └── webfonts
+│       │       ├── fa-brands-400.eot
+│       │       ├── fa-brands-400.svg
+│       │       ├── fa-brands-400.ttf
+│       │       ├── fa-brands-400.woff
+│       │       ├── fa-brands-400.woff2
+│       │       ├── fa-regular-400.eot
+│       │       ├── fa-regular-400.svg
+│       │       ├── fa-regular-400.ttf
+│       │       ├── fa-regular-400.woff
+│       │       ├── fa-regular-400.woff2
+│       │       ├── fa-solid-900.eot
+│       │       ├── fa-solid-900.svg
+│       │       ├── fa-solid-900.ttf
+│       │       ├── fa-solid-900.woff
+│       │       └── fa-solid-900.woff2
+│       ├── theme.toml
+│       └── wercker.yml
+└── tree.txt
+
+269 directories, 916 files
