@@ -23,7 +23,7 @@ The architecture consists of two major environments:
 
 The following architecture diagram illustrates the complete workflow implemented throughout this workshop.
 
-![Architecture](/images/workshop/5.2/smart-home-architecture.png)
+![Architecture](/fcj-workshop-template/images/workshop/5.2/smart-home-architecture.png)
 
 ---
 
