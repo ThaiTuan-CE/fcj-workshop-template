@@ -23,7 +23,10 @@ Toàn bộ hệ thống được chia thành hai môi trường chính:
 
 Sơ đồ dưới đây minh họa toàn bộ kiến trúc được triển khai trong workshop.
 
-![Kiến trúc Smart Home IoT](/images/workshop/5.2/smart-home-architecture.png)
+<div class="image-gallery">
+  <img src="/images/architect.jpeg" alt="Diagram />
+   
+</div>
 
 ---
 

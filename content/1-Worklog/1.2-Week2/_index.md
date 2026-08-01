@@ -5,53 +5,36 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Objectives of Week 2:
 
+* Set up AWS IoT Core for the Smart Home IoT system.
+* Learn device authentication using Certificates and IoT Policies.
+* Practice MQTT communication using the MQTT Test Client.
 
-### Week 2 Objectives:
+### Weekly Tasks:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+| Day | Task                                                                                                                                                                              | Start Date | Completion Date | Reference |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
+| 2 | - Study AWS IoT Core <br> - Understand communication between IoT devices and AWS Cloud | 22/06/2026 | 22/06/2026 | <https://docs.aws.amazon.com/iot/> |
+| 3 | - Create an **IoT Thing** <br> - Configure the device registry | 23/06/2026 | 23/06/2026 | <https://docs.aws.amazon.com/iot/> |
+| 4 | - Generate an **X.509 Certificate** <br> - Create an **IoT Policy** for device authorization | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/iot/> |
+| 5 | - Attach the Certificate and IoT Policy to the IoT Thing <br> - Verify device authentication | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/iot/> |
+| 6 | - Practice using the **MQTT Test Client** <br> - Publish and subscribe to MQTT topics | 26/06/2026 | 26/06/2026 | <https://docs.aws.amazon.com/iot/> |
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Achievements of Week 2:
 
+* Successfully configured AWS IoT Core.
 
-### Week 2 Achievements:
+* Created an IoT Thing representing the Smart Home device.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Generated and managed:
+  * X.509 Certificate
+  * Public Key
+  * Private Key
+  * IoT Policy
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully authenticated the device using AWS IoT Core.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Verified MQTT communication using the AWS IoT MQTT Test Client.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed the cloud environment for the next development stage.

@@ -5,55 +5,30 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện tài liệu phần Cloud.
+* Rà soát toàn bộ quy trình triển khai AWS.
+* Chuẩn bị báo cáo và bàn giao dự án.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                              | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Tổng hợp tài liệu triển khai AWS <br> - Hoàn thiện mô tả kiến trúc hệ thống Cloud                                                                                                  | 27/07/2026   | 27/07/2026      | <https://docs.aws.amazon.com/> |
+| 3   | - Hoàn thiện sơ đồ kiến trúc AWS <br> - Rà soát các dịch vụ đã sử dụng trong dự án                                                                                                    | 28/07/2026   | 28/07/2026      | <https://aws.amazon.com/architecture/icons/> |
+| 4   | - Kiểm tra lại toàn bộ quy trình triển khai <br> - Cập nhật hình ảnh minh họa và kết quả kiểm thử                                                                                    | 29/07/2026   | 29/07/2026      | <https://docs.aws.amazon.com/> |
+| 5   | - Hoàn thiện báo cáo phần Cloud <br> - Chuẩn bị slide trình bày dự án                                                                                                                 | 30/07/2026   | 30/07/2026      | |
+| 6   | - Rà soát lần cuối tài liệu và mã nguồn <br> - Chuẩn bị bàn giao và trình bày kết quả dự án                                                                                           | 31/07/2026   | 31/07/2026      | |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thiện tài liệu triển khai AWS và kiến trúc hệ thống Cloud.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tổng hợp đầy đủ quy trình cấu hình và triển khai các dịch vụ AWS đã sử dụng trong dự án.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hoàn thiện sơ đồ kiến trúc và tài liệu kỹ thuật phục vụ báo cáo.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Rà soát, kiểm thử lại toàn bộ hệ thống trước khi bàn giao.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành báo cáo, slide trình bày và chuẩn bị đầy đủ cho buổi nghiệm thu dự án.

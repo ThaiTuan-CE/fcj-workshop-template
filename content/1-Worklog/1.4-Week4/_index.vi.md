@@ -5,55 +5,32 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Kiểm thử AWS IoT Rules.
+* Tích hợp các dịch vụ AWS thành một hệ thống hoàn chỉnh.
+* Kiểm tra luồng dữ liệu từ thiết bị đến Cloud.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Kiểm thử hoạt động của AWS IoT Rules <br> - Kiểm tra dữ liệu từ MQTT Topic                                                                                                               | 06/07/2026   | 06/07/2026      | <https://docs.aws.amazon.com/iot/> |
+| 3   | - Kiểm tra dữ liệu được lưu trên Amazon DynamoDB <br> - Xác thực định dạng dữ liệu                                                                                                        | 07/07/2026   | 07/07/2026      | <https://docs.aws.amazon.com/dynamodb/> |
+| 4   | - Kiểm thử Amazon SNS <br> - Kiểm tra chức năng gửi Email thông báo                                                                                                                       | 08/07/2026   | 08/07/2026      | <https://docs.aws.amazon.com/sns/> |
+| 5   | - Tích hợp AWS IoT Core, DynamoDB và Amazon SNS <br> - Kiểm tra kết nối giữa các dịch vụ                                                                                                 | 09/07/2026   | 09/07/2026      | <https://docs.aws.amazon.com/> |
+| 6   | - Kiểm thử toàn bộ hệ thống Cloud <br> - Khắc phục các lỗi phát sinh trong quá trình tích hợp                                                                                             | 10/07/2026   | 10/07/2026      | <https://docs.aws.amazon.com/> |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Kiểm thử thành công AWS IoT Rules.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Xác minh dữ liệu được lưu chính xác trên Amazon DynamoDB.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Kiểm tra thành công chức năng gửi thông báo của Amazon SNS.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hoàn thành việc tích hợp AWS IoT Core, Amazon DynamoDB và Amazon SNS.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Xác nhận luồng dữ liệu từ thiết bị IoT đến nền tảng Cloud hoạt động ổn định.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Khắc phục các lỗi cấu hình trong quá trình tích hợp hệ thống.

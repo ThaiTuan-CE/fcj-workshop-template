@@ -5,55 +5,39 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thiết lập môi trường AWS IoT Core cho hệ thống Smart Home IoT.
+* Tìm hiểu cơ chế xác thực thiết bị bằng Certificate và IoT Policy.
+* Thực hành giao tiếp MQTT thông qua MQTT Test Client.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                                     | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Tìm hiểu tổng quan về AWS IoT Core <br> - Nghiên cứu mô hình kết nối giữa thiết bị IoT và AWS Cloud                                                                                         | 22/06/2026   | 22/06/2026      | <https://docs.aws.amazon.com/iot/> |
+| 3   | - Tạo **IoT Thing** trên AWS IoT Core <br> - Tìm hiểu Device Registry và quản lý thiết bị                                                                                                      | 23/06/2026   | 23/06/2026      | <https://docs.aws.amazon.com/iot/> |
+| 4   | - Tạo **X.509 Certificate** <br> - Tạo **IoT Policy** và cấu hình quyền truy cập cho thiết bị                                                                                                  | 24/06/2026   | 24/06/2026      | <https://docs.aws.amazon.com/iot/> |
+| 5   | - Gắn Certificate và IoT Policy vào IoT Thing <br> - Kiểm tra quá trình xác thực và phân quyền của thiết bị                                                                                   | 25/06/2026   | 25/06/2026      | <https://docs.aws.amazon.com/iot/> |
+| 6   | - Thực hành sử dụng **MQTT Test Client** <br> - Publish và Subscribe các MQTT Topic <br> - Kiểm tra việc truyền nhận dữ liệu giữa các Topic                                                   | 26/06/2026   | 26/06/2026      | <https://docs.aws.amazon.com/iot/> |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu được vai trò của AWS IoT Core trong việc kết nối và quản lý các thiết bị IoT.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tạo thành công một **IoT Thing** để đại diện cho thiết bị trong hệ thống Smart Home.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tạo và quản lý các thông tin bảo mật cần thiết, bao gồm:
+  * X.509 Certificate
+  * Public Key
+  * Private Key
+  * IoT Policy
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Cấu hình và gắn thành công Certificate cùng IoT Policy cho IoT Thing.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu được cơ chế xác thực và phân quyền của AWS IoT Core đối với thiết bị IoT.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Thực hành thành công với **MQTT Test Client**, bao gồm:
+  * Publish dữ liệu lên MQTT Topic.
+  * Subscribe dữ liệu từ MQTT Topic.
+  * Kiểm tra quá trình truyền nhận dữ liệu theo thời gian thực.

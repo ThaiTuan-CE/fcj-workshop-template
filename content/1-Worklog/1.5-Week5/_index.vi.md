@@ -5,55 +5,31 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Xây dựng sơ đồ kiến trúc AWS cho hệ thống.
+* Đánh giá và tối ưu kiến trúc Cloud.
+* Hoàn thiện mô hình triển khai của hệ thống Smart Home IoT.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Phân tích kiến trúc hệ thống hiện tại <br> - Xác định luồng dữ liệu giữa các dịch vụ AWS                                                                                                | 13/07/2026   | 13/07/2026      | <https://docs.aws.amazon.com/> |
+| 3   | - Thiết kế sơ đồ kiến trúc AWS bằng AWS Architecture Icons                                                                                                                                | 14/07/2026   | 14/07/2026      | <https://aws.amazon.com/architecture/icons/> |
+| 4   | - Đánh giá khả năng mở rộng và tính bảo mật của hệ thống <br> - Tối ưu cấu hình các dịch vụ AWS                                                                                           | 15/07/2026   | 15/07/2026      | <https://docs.aws.amazon.com/wellarchitected/> |
+| 5   | - Cập nhật sơ đồ kiến trúc sau khi tối ưu <br> - Kiểm tra lại luồng dữ liệu giữa các thành phần                                                                                           | 16/07/2026   | 16/07/2026      | <https://docs.aws.amazon.com/> |
+| 6   | - Hoàn thiện tài liệu kiến trúc Cloud <br> - Chuẩn bị cho giai đoạn kiểm thử toàn hệ thống                                                                                                | 17/07/2026   | 17/07/2026      | <https://docs.aws.amazon.com/> |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thành sơ đồ kiến trúc AWS của hệ thống Smart Home IoT.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Mô tả đầy đủ luồng dữ liệu giữa các dịch vụ AWS và thiết bị IoT.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Đánh giá và tối ưu kiến trúc Cloud theo các nguyên tắc của AWS Well-Architected Framework.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Cải thiện khả năng mở rộng, bảo mật và tính ổn định của hệ thống.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* Hoàn thiện tài liệu kiến trúc Cloud phục vụ cho việc triển khai và báo cáo dự án.
 
