@@ -1,10 +1,11 @@
 ---
 title: "Proposal"
-date: 2024-01-01
+date: 2026-07-31
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
+
 # Smart Home IoT System on AWS
 
 ## A Secure IoT-Based Home Monitoring System Using AWS Cloud Services
@@ -81,9 +82,9 @@ The Rules Engine stores telemetry in Amazon DynamoDB and sends door-open alerts 
 
 The proposed architecture is illustrated below.
 
-<!-- ![Smart Home IoT Architecture](/images/workshop/5.2/architec.jpg) -->
-![Smart Home IoT Architecture](/images/workshop/architec.jpeg)
+![Smart Home IoT Architecture](/images/workshop/5.2/architec.jpg)
 
+*Figure: Proposed architecture of the Smart Home IoT system on AWS.*
 
 ---
 
