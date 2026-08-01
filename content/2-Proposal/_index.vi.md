@@ -81,12 +81,7 @@ AWS IoT Rules Engine lưu dữ liệu vào Amazon DynamoDB và gửi cảnh báo
 
 Kiến trúc tổng thể của hệ thống được minh họa như hình dưới đây.
 
-<div class="image-gallery">
-  <img src="/images/architect.jpeg" alt="Diagram />
-   
-</div>
-
----
+![Smart Home IoT Architecture](/images/workshop/architec.jpeg)
 
 # Các dịch vụ AWS sử dụng
 

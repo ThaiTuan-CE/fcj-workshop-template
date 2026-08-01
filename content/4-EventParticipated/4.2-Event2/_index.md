@@ -1,6 +1,6 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2026-07-25
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
@@ -70,9 +70,8 @@ Participating in the **Agentic AI Build Week & Hackathon** was a valuable hands-
 
 #### Some Event Photos
 
-<div class="image-gallery">
-  <img src="/images/ev2.jpg" alt="Participating in the event 2 image " />
 
-</div>
+![Image](/fcj-workshop-template/images/ev2.jpg)
+
 
 > Overall, the event not only provided valuable knowledge about AWS and AI technologies but also improved my ability to handle pressure, collaborate with teammates, and transform innovative ideas into practical solutions within a limited timeframe.
