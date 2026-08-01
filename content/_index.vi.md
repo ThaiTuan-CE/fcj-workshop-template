@@ -7,7 +7,7 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Vòng Lương Thái Tuấn 
+&emsp; **Họ và tên:** Vòng Lương Thái dưới 
 
 &emsp; **Số điện thoại:** 0866229261
 &emsp; **Email:** tuan.vong2313767@hcmut.edu.vn
