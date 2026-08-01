@@ -82,8 +82,7 @@ The Rules Engine stores telemetry in Amazon DynamoDB and sends door-open alerts 
 
 The proposed architecture is illustrated below.
 
-![Smart Home IoT Architecture](/images/workshop/5.2/architec.jpg)
-
+![Smart Home IoT Architecture](/images/workshop/5.2/smart-home-architecture.png)
 *Figure: Proposed architecture of the Smart Home IoT system on AWS.*
 
 ---

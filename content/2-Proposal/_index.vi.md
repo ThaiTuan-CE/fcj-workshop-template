@@ -84,6 +84,7 @@ Kiến trúc đề xuất được minh họa trong hình dưới đây.
 
 ![Kiến trúc hệ thống Smart Home IoT](/images/workshop/5.2/architec.jpg)
 
+
 *Hình: Kiến trúc đề xuất của hệ thống Smart Home IoT trên AWS.*
 
 ---

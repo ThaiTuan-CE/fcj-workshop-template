@@ -91,9 +91,9 @@ Tham gia workshop **“FCAJ & First Cloud AI Journey Meetup”** là một trả
 #### Một số hình ảnh khi tham gia sự kiện
 
 * Thêm các hình ảnh của các bạn tại đây
-<div class="image-gallery">
-  <img src="/images/ev1.jpg" alt="Hình ảnh tham gia sự kiện FCAJ 1" />
-  <img src="/images/ev12.jpg" alt="Hình ảnh tham gia sự kiện FCAJ 1" 
-</div>
+<!-- ![Image](/fcj-workshop-template/images/ev1.jpg)
+![Image](/fcj-workshop-template/images/ev12.jpg) -->
+![Image](/images/ev1.jpg)
+![Image](/images/ev12.jpg)
 
 > Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật thực chiến mà còn giúp tôi thay đổi cách tư duy về định hướng nghề nghiệp, hiểu rõ hơn về văn hóa doanh nghiệp và cách phối hợp hiệu quả trong môi trường quốc tế.
