@@ -1,153 +1,74 @@
 ---
-title: "Event 1"
-date: 2026-06-16
+title: "Event 2"
+date: 2024-01-01
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
-
-
-# Summary Report: “FCAJ & First Cloud AI Journey Meetup”
+# Summary Report: “Agentic AI Build Week (AABW) & Hackathon”
 
 ### Event Objectives
 
-- Share the **career development journey** from students to technology professionals and AWS Partners.
-- Provide practical insights into the roles of **DevOps Engineers** and **Data Analytics Engineers** in real-world enterprises.
-- Introduce career development models and professional working standards in multinational corporations (MNCs).
+- Experience the process of building a technology product within 24 hours under high pressure.
+- Apply AI Agents, Large Language Models (LLMs), Amazon Bedrock, and AWS services to solve real-world problems.
+- Improve teamwork skills, role assignment, project development, and presentation abilities.
 
-### Speakers
+### Team Members / Groups
 
-- **Trong Truong** – DevOps Engineer @ Endava Vietnam
-- **Danh Hoang Hieu Nghi** – AI Engineer – AWS Community Builder – AWS Student Builder Group Leader
-- **Dat Pham** – Data Analytics Engineer
-- **Cuong Nguyen** – Process Engineer
+- **Signal Scout Team**: Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan.
+- **3KA Team (S.H.E.P.H.E.R.D)**: Huynh An Khuong, Nguyen Quoc Huy, Ngo Quang Khoi, Hoang Le Thanh Duc, Dang Nguyen Phuoc Loc, Dang Truong Hung.
+- **Plan V Team (SA Professional Native App)**: Pham Tien Thuan Phat, Huynh Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An.
 
 ### Key Highlights
 
-#### Real-world DevOps Engineer Perspective
+#### 24-hour Product Development Challenge
 
-- DevOps is not only about writing CI/CD pipelines, using Docker/Kubernetes, or fixing production problems.
-- The responsibilities of DevOps Engineers depend on company size, team structure, product complexity, infrastructure maturity, and operational models.
-- Important technical foundations include:
-  - Linux
-  - Networking fundamentals
-  - Programming languages such as Python and Golang
-  - Git
-  - CI/CD pipelines
-  - Practical system operation skills
+- **Time pressure**: Participants experienced 24 hours of continuous development, dealing with limited sleep, debugging issues late at night, and solving unexpected technical problems.
+- **Overcoming challenges**: Although many participants had limited experience with AI and AWS initially, teams successfully built complete MVP (Minimum Viable Product) solutions within a short period.
 
-#### Data Analytics Engineer Journey and Reality
+#### Featured Projects at the Event
 
-- The career development journey includes multiple stages:
-  Student curiosity → First Cloud Journey → Community workshops → Hands-on labs → Projects → Portfolio development → AWS Partner → Knowledge sharing.
-- Data Analytics Engineers work on:
-  - Building operational reports
-  - Designing dashboards
-  - Analyzing business changes
-  - Finding root causes of problems
-  - Working with IoT and enterprise data projects
-- Essential skills include:
-  - Critical thinking
-  - Communication skills
-  - Data storytelling
-  - Problem-solving ability
+- **Signal Scout**: A platform that detects early business strategy changes by collecting data through Apify/TinyFish, processing information with Amazon Bedrock, and presenting insights through dashboards.
 
-#### Business Operation Data Analysis
+- **S.H.E.P.H.E.R.D**: An intelligent crowd monitoring system that detects potential risks and supports real-time decision-making using YOLO, Amazon SageMaker, and Amazon Bedrock AgentCore.
 
-- Monitoring important business metrics:
-  - GMV
-  - AOV
-  - Fulfillment Cost
-  - Last Mile Cost
-- Using data analysis to identify root causes instead of only presenting raw numbers.
-- Improving operational efficiency through better decision-making based on data.
-
-#### Career Development Mindset
-
-- The five development stages:
-  **Follower → Learner → Problem Solver → System Thinker → Super Star**
-- Always ask **"why" before "how"** to understand the real problem.
-- Communication and collaboration are essential skills in technology careers.
-- Using tools without understanding the fundamentals is not enough.
-
-#### Recruitment Standards in Multinational Corporations (MNCs)
-
-- Standard recruitment process:
-  - Resume screening
-  - Capability assessment
-  - Technical interview using STAR methodology
-  - Cultural fit evaluation
-- Companies focus on:
-  - Problem-solving ability
-  - Communication skills
-  - Team collaboration
-  - Continuous learning mindset
-- Importance of **No-Blame Post-Mortem** culture and a **Caring & Inclusive** working environment.
+- **SA Professional Native App**: An AI-powered application that supports Solution Architects by extracting requirements from BRD/PRD documents, generating system architectures, creating Draw.io diagrams, and estimating AWS costs.
 
 ### Key Takeaways
 
-#### Technical Knowledge
+#### Technical Skills
 
-- Strong fundamentals are the foundation of a successful technology career.
-- Understanding Linux, networking, programming, and CI/CD is important before implementing advanced automation.
-- DevOps and Data Analytics require both technical knowledge and problem-solving skills.
+- **Applying Agentic AI**: Learned how to combine LLMs, Amazon Bedrock, Agent memory, and automation tools to build intelligent applications.
+- **Architecture and cost optimization**: Understanding the importance of balancing cloud infrastructure costs and technical requirements when developing AI-powered solutions.
 
-#### Professional Development
+#### Mindset and Soft Skills
 
-- Career growth requires a clear roadmap and continuous improvement.
-- Moving from an executor mindset to a system-thinking mindset creates more value.
-- Sharing knowledge with the community helps strengthen personal capability.
-
-#### Working Mindset
-
-- Focus on solving problems instead of only completing tasks.
-- Understand the business context behind technical solutions.
-- Develop both technical skills and soft skills to work effectively in professional environments.
+- **Clear goal definition**: Learned the importance of reducing project scope and focusing on building a small but functional core feature within limited time.
+- **Team collaboration**: Realized that teamwork, communication, and supporting each other are essential factors for overcoming difficult challenges.
 
 ### Applying to Work
 
-- **Strengthen technical foundations**: Improve knowledge of Linux, networking, Git, and CI/CD before developing automation solutions.
-- **Apply data-driven thinking**: Use data analysis and storytelling techniques to support better decisions.
-- **Develop system thinking**: Understand how different components work together in large-scale systems.
-- **Improve communication skills**: Practice explaining technical concepts clearly to different audiences.
+- **Process automation**: Apply Agentic AI concepts to automate repetitive tasks in software development and daily workflows.
+- **Effective project management**: Clearly define team member responsibilities and prepare necessary tools and frameworks before starting new projects.
+- **Rapid prototyping mindset**: Apply MVP development methods to quickly validate ideas and improve solutions.
 
 ### Event Experience
 
-Attending the **“FCAJ & First Cloud AI Journey Meetup”** workshop was a valuable experience that provided me with practical knowledge about technology careers, enterprise requirements, and professional development paths.
+Participating in the **Agentic AI Build Week & Hackathon** was a valuable hands-on experience that helped me understand the high-pressure working environment in the technology industry. Some memorable experiences include:
 
-#### Learning from highly skilled speakers
+#### Facing Real-world Challenges
 
-- Speakers from technology companies and AWS communities shared **real-world experiences and best practices**.
-- Their stories helped me understand the working environment of multinational companies and the expectations for technology professionals.
+- Experienced the excitement and pressure of solving complex coding problems and system integration challenges.
+- Worked closely with teammates through late-night debugging sessions and continuous problem-solving activities.
 
-#### Hands-on technical exposure
+#### Lessons Learned from Challenges and Effort
 
-- Learned about the real responsibilities of DevOps Engineers in enterprise environments.
-- Understood how Data Analytics Engineers use data to analyze business operations and solve problems.
-- Gained awareness of the importance of technical fundamentals and practical experience.
+- Taking the first step and participating is already a valuable achievement.
+- A small but working product is often more valuable than a large idea that cannot be completed.
+- Persistence, teamwork, and adaptability are important qualities when working on technology projects.
 
-#### Developing professional skills
+#### Some Event Photos
+![Image](/fcj-workshop-template/images/ev2.png)
 
-- Improved my understanding of critical thinking, communication, and problem-solving skills.
-- Learned that successful engineers need both technical expertise and the ability to collaborate with others.
-- Recognized the importance of continuous learning in the rapidly changing technology industry.
+> Overall, the event not only provided valuable knowledge about AWS and AI technologies but also improved my ability to handle pressure, collaborate with teammates, and transform innovative ideas into practical solutions within a limited timeframe.
 
-#### Networking and discussions
-
-- The event provided opportunities to connect with technology communities and experienced professionals.
-- Learned from different career journeys and gained more motivation for personal development.
-- Expanded my understanding of industry expectations and future career directions.
-
-#### Lessons learned
-
-- Technology success comes from understanding fundamentals, not only using tools.
-- A clear career roadmap and continuous improvement are essential for long-term growth.
-- Asking the right questions and understanding problems are important skills for every engineer.
-
-#### Some event photos
-
-
-![Image](/fcj-workshop-template/images/ev1.png)
-![Image](/fcj-workshop-template/images/ev12.png)
-
-> Overall, the event provided not only technical knowledge but also changed my perspective on career development, professional mindset, and the importance of combining technical skills with communication and problem-solving abilities in an international technology environment.
