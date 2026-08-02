@@ -82,7 +82,8 @@ AWS IoT Rules Engine lưu dữ liệu telemetry vào Amazon DynamoDB và gửi c
 
 Kiến trúc đề xuất được minh họa trong hình dưới đây.
 
-![Kiến trúc hệ thống Smart Home IoT](/images/2-Proposal/architect.png)
+![Kiến trúc hệ thống Smart Home IoT](/images/2-Proposal/edge_architecture.jpeg)
+
 
 *Hình: Kiến trúc đề xuất của hệ thống Smart Home IoT trên AWS.*
 
