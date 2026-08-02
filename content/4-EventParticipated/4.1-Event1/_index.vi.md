@@ -1,99 +1,152 @@
 ---
 title: "Event 1"
-date: 2026-06-16
+date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “FCAJ & First Cloud AI Journey Meetup”
+# Summary Report: “FCAJ & First Cloud AI Journey Meetup”
 
-### Mục Đích Của Sự Kiện
+### Event Objectives
 
-- Chia sẻ **hành trình phát triển sự nghiệp** từ sinh viên đến chuyên gia công nghệ và AWS Partner.
-- Cung cấp **góc nhìn thực tế** về công việc của một DevOps Engineer và Data Analytics Engineer trong doanh nghiệp.
-- Phân tích các **mô hình phát triển năng lực cá nhân** và tiêu chuẩn văn hóa tại các tập đoàn đa quốc gia (MNCs).
+- Share the **career development journey** from students to technology professionals and AWS Partners.
+- Provide practical insights into the roles of **DevOps Engineers** and **Data Analytics Engineers** in real-world enterprises.
+- Introduce career development models and professional working standards in multinational corporations (MNCs).
 
-### Danh Sách Diễn Giả
+### Speakers
 
-- **Trọng Trường** - DevOps Engineer @ Endava Vietnam
-- **Danh Hoàng Hiếu Nghị** - AI Engineer – AWS Community Builder – AWS Student Builder Group Leader
-- **Đạt Phạm** - Data Analytics Engineer
-- **Cường Nguyễn** - Process Engineer
+- **Trong Truong** – DevOps Engineer @ Endava Vietnam
+- **Danh Hoang Hieu Nghi** – AI Engineer – AWS Community Builder – AWS Student Builder Group Leader
+- **Dat Pham** – Data Analytics Engineer
+- **Cuong Nguyen** – Process Engineer
 
-### Nội Dung Nổi Bật
+### Key Highlights
 
-#### Thực tế về DevOps Engineer
+#### Real-world DevOps Engineer Perspective
 
-- **Bản chất công việc**: DevOps không chỉ đơn thuần là viết CI/CD pipelines, dùng Docker/Kubernetes hay suốt ngày đóng vai "người hùng" đi fix lỗi production lúc nửa đêm.
-- **Phạm vi công việc**: Phụ thuộc vào quy mô công ty, cấu trúc team, độ phức tạp của sản phẩm, mức độ trưởng thành của hạ tầng và mô hình hỗ trợ SRE/Security.
-- **Lời khuyên học tập**: Cần ưu tiên nắm vững các **kiến thức nền tảng** gồm Linux, mạng cơ bản, lập trình (Python, Golang), Git, CI/CD và cách ứng dụng vận hành thực tế.
+- DevOps is not only about writing CI/CD pipelines, using Docker/Kubernetes, or fixing production problems.
+- The responsibilities of DevOps Engineers depend on company size, team structure, product complexity, infrastructure maturity, and operational models.
+- Important technical foundations include:
+  - Linux
+  - Networking fundamentals
+  - Programming languages such as Python and Golang
+  - Git
+  - CI/CD pipelines
+  - Practical system operation skills
 
-#### Hành trình và thực tế của Data Analytics Engineer
+#### Data Analytics Engineer Journey and Reality
 
-- **Lộ trình phát triển**: Trải qua 8 bước từ sự tò mò của sinh viên, tham gia First Cloud Journey, workshop cộng đồng, hands-on labs, school projects, portfolio, trở thành AWS Partner đến share-back lại cộng đồng.
-- **Công việc tại doanh nghiệp**: Xây dựng báo cáo định kỳ, thiết kế Dashboard theo dõi vận hành, phân tích nguyên nhân gốc rễ của biến động kinh doanh, và tham gia các dự án dữ liệu IoT trong nhà máy.
-- **Kỹ năng cốt lõi**: **Tư duy phản biện**, kỹ năng giao tiếp, kể chuyện với dữ liệu (data storytelling) và kỹ năng giải quyết vấn đề.
+- The career development journey includes multiple stages:
+  Student curiosity → First Cloud Journey → Community workshops → Hands-on labs → Projects → Portfolio development → AWS Partner → Knowledge sharing.
+- Data Analytics Engineers work on:
+  - Building operational reports
+  - Designing dashboards
+  - Analyzing business changes
+  - Finding root causes of problems
+  - Working with IoT and enterprise data projects
+- Essential skills include:
+  - Critical thinking
+  - Communication skills
+  - Data storytelling
+  - Problem-solving ability
 
-#### Phân tích số liệu vận hành doanh nghiệp
+#### Business Operation Data Analysis
 
-- **Quản trị chỉ số kinh doanh**: Theo dõi chặt chẽ các biến động về GMV, AOV, chi phí Fulfillment và Last Mile Cost.
-- **Tối ưu hóa hệ thống**: Phân tích tỷ lệ Backup supplier và Fill rate để tìm ra **nguyên nhân gốc rễ** thay vì chỉ đưa ra số liệu thô cho cấp trên.
+- Monitoring important business metrics:
+  - GMV
+  - AOV
+  - Fulfillment Cost
+  - Last Mile Cost
+- Using data analysis to identify root causes instead of only presenting raw numbers.
+- Improving operational efficiency through better decision-making based on data.
 
-### Những Gì Học Được
+#### Career Development Mindset
 
-#### Tư Duy Phát Triển Sự Nghiệp
+- The five development stages:
+  **Follower → Learner → Problem Solver → System Thinker → Super Star**
+- Always ask **"why" before "how"** to understand the real problem.
+- Communication and collaboration are essential skills in technology careers.
+- Using tools without understanding the fundamentals is not enough.
 
-- **Mô hình 5 giai đoạn phát triển**: Follower → Learner → Problem Solver → System Thinker → Super Star.
-- **Triết lý làm việc**: Luôn đặt câu hỏi **"why"** trước khi hỏi "how", hiểu rằng giao tiếp là một phần quan trọng của công việc, và việc copy lệnh không có nghĩa là hiểu bản chất.
+#### Recruitment Standards in Multinational Corporations (MNCs)
 
-#### Tiêu Chuẩn Tuyển Dụng Tại Tập Đoàn Đa Quốc Gia (MNCs)
+- Standard recruitment process:
+  - Resume screening
+  - Capability assessment
+  - Technical interview using STAR methodology
+  - Cultural fit evaluation
+- Companies focus on:
+  - Problem-solving ability
+  - Communication skills
+  - Team collaboration
+  - Continuous learning mindset
+- Importance of **No-Blame Post-Mortem** culture and a **Caring & Inclusive** working environment.
 
-- **Quy trình 4 vòng chuẩn hóa**: Sàng lọc hồ sơ, test năng lực, phỏng vấn chuyên môn sâu bằng mô hình STAR, và đánh giá sự hòa hợp văn hóa.
-- **Văn hóa doanh nghiệp**: Đề cao tư duy **No-Blame Post-Mortem** và môi trường Caring & Inclusive.
+### Key Takeaways
 
-### Ứng Dụng Vào Công Việc
+#### Technical Knowledge
 
-- **Áp dụng nền tảng kỹ thuật**: Xây dựng nền tảng vững chắc về Linux, mạng và CI/CD trước khi tiến hành tự động hóa.
-- **Nâng cao năng lực phân tích**: Vận dụng kỹ năng **kể chuyện với dữ liệu** và tư duy hệ thống để giải quyết các bài toán vận hành thực tế.
-- **Định hướng bản thân**: Bám sát lộ trình phát triển năng lực cá nhân qua từng giai đoạn để không ngừng nâng cao giá trị đóng góp cho tổ chức.
+- Strong fundamentals are the foundation of a successful technology career.
+- Understanding Linux, networking, programming, and CI/CD is important before implementing advanced automation.
+- DevOps and Data Analytics require both technical knowledge and problem-solving skills.
 
-### Trải Nghiệm Trong Event
+#### Professional Development
 
-Tham gia workshop **“FCAJ & First Cloud AI Journey Meetup”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về bức tranh tuyển dụng, yêu cầu kỹ thuật thực tế và định hướng phát triển sự nghiệp trong ngành công nghệ.
+- Career growth requires a clear roadmap and continuous improvement.
+- Moving from an executor mindset to a system-thinking mindset creates more value.
+- Sharing knowledge with the community helps strengthen personal capability.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
+#### Working Mindset
 
-- Các diễn giả đến từ các doanh nghiệp và tổ chức công nghệ lớn đã chia sẻ **best practices** cùng kinh nghiệm thực chiến.
-- Qua các câu chuyện thực tế, tôi hiểu rõ hơn về văn hóa làm việc tại các tập đoàn đa quốc gia cũng như cách vận hành hệ thống.
+- Focus on solving problems instead of only completing tasks.
+- Understand the business context behind technical solutions.
+- Develop both technical skills and soft skills to work effectively in professional environments.
 
-#### Trải nghiệm kỹ thuật thực tế
+### Applying to Work
 
-- Nắm bắt được bức tranh toàn cảnh về DevOps và tầm quan trọng của việc nắm vững các **kiến thức nền tảng**.
-- Hiểu rõ quy trình phân tích dữ liệu vận hành, từ việc theo dõi các chỉ số kinh doanh đến việc tìm ra **nguyên nhân gốc rễ**.
+- **Strengthen technical foundations**: Improve knowledge of Linux, networking, Git, and CI/CD before developing automation solutions.
+- **Apply data-driven thinking**: Use data analysis and storytelling techniques to support better decisions.
+- **Develop system thinking**: Understand how different components work together in large-scale systems.
+- **Improve communication skills**: Practice explaining technical concepts clearly to different audiences.
 
-#### Ứng dụng công cụ hiện đại và quy trình chuẩn
+### Event Experience
 
-- Tìm hiểu về các tiêu chuẩn tuyển dụng và mô hình phát triển năng lực từ cấp độ thực thi đến người dẫn dắt.
-- Nhận thức rõ tầm quan trọng của các **kỹ năng mềm** như giao tiếp, tư duy phản biện và giải quyết vấn đề.
+Attending the **“FCAJ & First Cloud AI Journey Meetup”** workshop was a valuable experience that provided me with practical knowledge about technology careers, enterprise requirements, and professional development paths.
 
-#### Kết nối và trao đổi
+#### Learning from highly skilled speakers
 
-- Sự kiện tạo cơ hội giao lưu với cộng đồng công nghệ, học hỏi từ những thế hệ đi trước và mở rộng mạng lưới quan hệ.
-- Nhận ra sự cần thiết của việc chủ động học hỏi, không ngừng nâng cao giá trị bản thân để đáp ứng nhu cầu thị trường.
+- Speakers from technology companies and AWS communities shared **real-world experiences and best practices**.
+- Their stories helped me understand the working environment of multinational companies and the expectations for technology professionals.
 
-#### Bài học rút ra
+#### Hands-on technical exposure
 
-- Sự thành công trong công nghệ không chỉ đến từ việc biết dùng công cụ mà nằm ở việc hiểu sâu **bản chất nền tảng**.
-- Phát triển sự nghiệp cần có lộ trình rõ ràng, tư duy hệ thống và tinh thần không ngừng chia sẻ lại cho cộng đồng.
-- Luôn giữ thái độ cởi mở, chủ động đặt câu hỏi và đặt nhu cầu giải quyết vấn đề lên hàng đầu trong mọi dự án.
+- Learned about the real responsibilities of DevOps Engineers in enterprise environments.
+- Understood how Data Analytics Engineers use data to analyze business operations and solve problems.
+- Gained awareness of the importance of technical fundamentals and practical experience.
 
-#### Một số hình ảnh khi tham gia sự kiện
+#### Developing professional skills
 
-* Thêm các hình ảnh của các bạn tại đây
-<!-- ![Image](/fcj-workshop-template/images/ev1.jpg)
-![Image](/fcj-workshop-template/images/ev12.jpg) -->
-![Image](/images/ev1.jpg)
-![Image](/images/ev12.jpg)
+- Improved my understanding of critical thinking, communication, and problem-solving skills.
+- Learned that successful engineers need both technical expertise and the ability to collaborate with others.
+- Recognized the importance of continuous learning in the rapidly changing technology industry.
 
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật thực chiến mà còn giúp tôi thay đổi cách tư duy về định hướng nghề nghiệp, hiểu rõ hơn về văn hóa doanh nghiệp và cách phối hợp hiệu quả trong môi trường quốc tế.
+#### Networking and discussions
+
+- The event provided opportunities to connect with technology communities and experienced professionals.
+- Learned from different career journeys and gained more motivation for personal development.
+- Expanded my understanding of industry expectations and future career directions.
+
+#### Lessons learned
+
+- Technology success comes from understanding fundamentals, not only using tools.
+- A clear career roadmap and continuous improvement are essential for long-term growth.
+- Asking the right questions and understanding problems are important skills for every engineer.
+
+#### Some event photos
+
+
+![Image](/fcj-workshop-template/images/ev1.png)
+![Image](/fcj-workshop-template/images/ev12.png)
+
+> Overall, the event provided not only technical knowledge but also changed my perspective on career development, professional mindset, and the importance of combining technical skills with communication and problem-solving abilities in an international technology environment.
