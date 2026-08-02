@@ -5,6 +5,7 @@ weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
+
 # Summary Report: “FCAJ & First Cloud AI Journey Meetup”
 
 ### Event Objectives
@@ -144,8 +145,8 @@ Attending the **“FCAJ & First Cloud AI Journey Meetup”** workshop was a valu
 
 #### Some event photos
 
-
 ![Image](/fcj-workshop-template/images/ev1.png)
 ![Image](/fcj-workshop-template/images/ev12.png)
 
 > Overall, the event provided not only technical knowledge but also changed my perspective on career development, professional mindset, and the importance of combining technical skills with communication and problem-solving abilities in an international technology environment.
+
