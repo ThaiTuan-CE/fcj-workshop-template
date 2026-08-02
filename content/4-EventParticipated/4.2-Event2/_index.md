@@ -71,3 +71,6 @@ Participating in the **Agentic AI Build Week & Hackathon** was a valuable hands-
 ![Image](/fcj-workshop-template/images/ev2.png)
 
 > Overall, the event not only provided valuable knowledge about AWS and AI technologies but also improved my ability to handle pressure, collaborate with teammates, and transform innovative ideas into practical solutions within a limited timeframe.
+
+
+![Image](/fcj-workshop-template/images/ev2.png)
