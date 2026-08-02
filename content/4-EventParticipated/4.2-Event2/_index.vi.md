@@ -1,118 +1,153 @@
 ---
-title: "Event 2"
-date: 2026-07-25
+title: "Event 1"
+date: 2026-06-16
 weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “Agentic AI Build Week (AABW) & Hackathon”
 
-### Mục Đích Của Sự Kiện
+# Summary Report: “FCAJ & First Cloud AI Journey Meetup”
 
-- Trải nghiệm quy trình xây dựng sản phẩm công nghệ trong thời gian ngắn với áp lực cao.
-- Ứng dụng **Agentic AI**, Large Language Models (LLMs), Amazon Bedrock và các dịch vụ AWS để giải quyết các bài toán thực tế.
-- Nâng cao kỹ năng làm việc nhóm, phân chia vai trò, phát triển sản phẩm và thuyết trình dự án.
+### Event Objectives
 
-### Danh Sách Thành Viên / Nhóm
+- Share the **career development journey** from students to technology professionals and AWS Partners.
+- Provide practical insights into the roles of **DevOps Engineers** and **Data Analytics Engineers** in real-world enterprises.
+- Introduce career development models and professional working standards in multinational corporations (MNCs).
 
-- **Nhóm Signal Scout**: Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan.
-- **Nhóm 3KA (S.H.E.P.H.E.R.D)**: Huynh An Khuong, Nguyen Quoc Huy, Ngo Quang Khoi, Hoang Le Thanh Duc, Dang Nguyen Phuoc Loc, Dang Truong Hung.
-- **Nhóm Plan V (SA Professional Native App)**: Pham Tien Thuan Phat, Huynh Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An.
+### Speakers
 
-### Nội Dung Nổi Bật
+- **Trong Truong** – DevOps Engineer @ Endava Vietnam
+- **Danh Hoang Hieu Nghi** – AI Engineer – AWS Community Builder – AWS Student Builder Group Leader
+- **Dat Pham** – Data Analytics Engineer
+- **Cuong Nguyen** – Process Engineer
 
-#### Thách thức xây dựng sản phẩm trong 24 giờ
+### Key Highlights
 
-- **Áp lực thời gian**: Các đội phải phát triển sản phẩm trong vòng 24 giờ, liên tục xử lý lỗi, hoàn thiện tính năng và giải quyết các vấn đề phát sinh.
-- **Vượt qua giới hạn bản thân**: Dù gặp nhiều khó khăn về kiến thức AI, AWS và thời gian triển khai, các nhóm vẫn hoàn thành được MVP (Minimum Viable Product) có khả năng hoạt động.
+#### Real-world DevOps Engineer Perspective
 
-#### Các dự án nổi bật tại sự kiện
+- DevOps is not only about writing CI/CD pipelines, using Docker/Kubernetes, or fixing production problems.
+- The responsibilities of DevOps Engineers depend on company size, team structure, product complexity, infrastructure maturity, and operational models.
+- Important technical foundations include:
+  - Linux
+  - Networking fundamentals
+  - Programming languages such as Python and Golang
+  - Git
+  - CI/CD pipelines
+  - Practical system operation skills
 
-- **Signal Scout**: Nền tảng giúp phát hiện sớm các tín hiệu thay đổi trong chiến lược kinh doanh của doanh nghiệp bằng cách thu thập dữ liệu, xử lý thông tin với Amazon Bedrock và hiển thị kết quả qua dashboard.
+#### Data Analytics Engineer Journey and Reality
 
-- **S.H.E.P.H.E.R.D**: Hệ thống phân tích mật độ dòng người thông minh, phát hiện nguy cơ và hỗ trợ điều phối theo thời gian thực sử dụng Computer Vision, YOLO, Amazon SageMaker và Amazon Bedrock AgentCore.
+- The career development journey includes multiple stages:
+  Student curiosity → First Cloud Journey → Community workshops → Hands-on labs → Projects → Portfolio development → AWS Partner → Knowledge sharing.
+- Data Analytics Engineers work on:
+  - Building operational reports
+  - Designing dashboards
+  - Analyzing business changes
+  - Finding root causes of problems
+  - Working with IoT and enterprise data projects
+- Essential skills include:
+  - Critical thinking
+  - Communication skills
+  - Data storytelling
+  - Problem-solving ability
 
-- **SA Professional Native App**: Ứng dụng AI hỗ trợ Solution Architect phân tích tài liệu BRD/PRD, tự động tạo kiến trúc hệ thống, sinh sơ đồ Draw.io và ước tính chi phí sử dụng AWS.
+#### Business Operation Data Analysis
 
-#### Ứng dụng Agentic AI trong phát triển sản phẩm
+- Monitoring important business metrics:
+  - GMV
+  - AOV
+  - Fulfillment Cost
+  - Last Mile Cost
+- Using data analysis to identify root causes instead of only presenting raw numbers.
+- Improving operational efficiency through better decision-making based on data.
 
-- **AI Agent workflow**: Kết hợp giữa Large Language Models (LLMs), Agent memory và các công cụ hỗ trợ để xây dựng hệ thống thông minh.
-- **Automation capability**: Tự động hóa các tác vụ xử lý dữ liệu, phân tích thông tin và hỗ trợ ra quyết định.
-- **AI-powered solution**: Áp dụng AI để giải quyết các bài toán thực tế thay vì chỉ xây dựng mô hình thử nghiệm.
+#### Career Development Mindset
 
-#### Kiến trúc hệ thống và tối ưu chi phí
+- The five development stages:
+  **Follower → Learner → Problem Solver → System Thinker → Super Star**
+- Always ask **"why" before "how"** to understand the real problem.
+- Communication and collaboration are essential skills in technology careers.
+- Using tools without understanding the fundamentals is not enough.
 
-- **Cloud architecture**: Lựa chọn các dịch vụ AWS phù hợp để triển khai ứng dụng.
-- **Cost optimization**: Cân bằng giữa hiệu năng hệ thống và chi phí vận hành cloud.
-- **Scalable solution**: Thiết kế hệ thống có khả năng mở rộng khi số lượng người dùng tăng lên.
+#### Recruitment Standards in Multinational Corporations (MNCs)
 
-### Những Gì Học Được
+- Standard recruitment process:
+  - Resume screening
+  - Capability assessment
+  - Technical interview using STAR methodology
+  - Cultural fit evaluation
+- Companies focus on:
+  - Problem-solving ability
+  - Communication skills
+  - Team collaboration
+  - Continuous learning mindset
+- Importance of **No-Blame Post-Mortem** culture and a **Caring & Inclusive** working environment.
 
-#### Kỹ Năng Kỹ Thuật
+### Key Takeaways
 
-- **Ứng dụng Agentic AI**: Hiểu cách kết hợp LLM, Amazon Bedrock, AI Agent và các công cụ tự động hóa để xây dựng ứng dụng thông minh.
-- **Thiết kế kiến trúc cloud**: Biết cách lựa chọn dịch vụ AWS phù hợp cho từng bài toán thực tế.
-- **Phát triển MVP nhanh chóng**: Học cách tập trung vào chức năng quan trọng nhất để tạo ra sản phẩm có thể hoạt động trong thời gian giới hạn.
+#### Technical Knowledge
 
-#### Tư Duy và Kỹ Năng Mềm
+- Strong fundamentals are the foundation of a successful technology career.
+- Understanding Linux, networking, programming, and CI/CD is important before implementing advanced automation.
+- DevOps and Data Analytics require both technical knowledge and problem-solving skills.
 
-- **Xác định mục tiêu rõ ràng**: Biết cách thu nhỏ phạm vi dự án để tập trung hoàn thiện tính năng quan trọng.
-- **Làm việc nhóm hiệu quả**: Hiểu được vai trò của việc phân chia công việc, giao tiếp và hỗ trợ lẫn nhau.
-- **Khả năng thích nghi**: Học cách xử lý những vấn đề mới trong môi trường áp lực cao.
+#### Professional Development
 
-#### Phát Triển Sản Phẩm
+- Career growth requires a clear roadmap and continuous improvement.
+- Moving from an executor mindset to a system-thinking mindset creates more value.
+- Sharing knowledge with the community helps strengthen personal capability.
 
-- **Tư duy MVP**: Một sản phẩm nhỏ nhưng hoạt động tốt có giá trị hơn một ý tưởng lớn nhưng chưa hoàn thiện.
-- **Problem-solving mindset**: Tập trung giải quyết vấn đề thực tế thay vì chỉ sử dụng công nghệ mới.
-- **Continuous improvement**: Luôn cải thiện sản phẩm dựa trên phản hồi và trải nghiệm thực tế.
+#### Working Mindset
 
-### Ứng Dụng Vào Công Việc
+- Focus on solving problems instead of only completing tasks.
+- Understand the business context behind technical solutions.
+- Develop both technical skills and soft skills to work effectively in professional environments.
 
-- **Tự động hóa quy trình**: Áp dụng tư duy Agentic AI để tối ưu các công việc lặp lại trong quá trình phát triển phần mềm.
-- **Xây dựng giải pháp AI**: Vận dụng Amazon Bedrock và các dịch vụ AWS để phát triển các ứng dụng thông minh.
-- **Quản lý dự án hiệu quả**: Xác định rõ vai trò thành viên, chia nhỏ nhiệm vụ và xây dựng kế hoạch triển khai phù hợp.
-- **Phát triển sản phẩm theo MVP**: Tập trung tạo ra giá trị thực tế trước khi mở rộng thêm tính năng.
+### Applying to Work
 
-### Trải nghiệm trong event
+- **Strengthen technical foundations**: Improve knowledge of Linux, networking, Git, and CI/CD before developing automation solutions.
+- **Apply data-driven thinking**: Use data analysis and storytelling techniques to support better decisions.
+- **Develop system thinking**: Understand how different components work together in large-scale systems.
+- **Improve communication skills**: Practice explaining technical concepts clearly to different audiences.
 
-Tham gia **Agentic AI Build Week (AABW) & Hackathon** là một trải nghiệm thực tế rất đáng giá, giúp tôi hiểu rõ hơn về quy trình phát triển sản phẩm công nghệ, cách làm việc trong môi trường áp lực cao và khả năng ứng dụng AI vào các bài toán thực tế.
+### Event Experience
 
-#### Đối mặt với thử thách thực tế
+Attending the **“FCAJ & First Cloud AI Journey Meetup”** workshop was a valuable experience that provided me with practical knowledge about technology careers, enterprise requirements, and professional development paths.
 
-- Trải nghiệm quá trình phát triển sản phẩm liên tục trong thời gian giới hạn.
-- Đối mặt với các vấn đề về code, tích hợp hệ thống, kiến trúc cloud và xử lý lỗi trong quá trình triển khai.
-- Học được cách bình tĩnh giải quyết vấn đề và phối hợp cùng đồng đội.
+#### Learning from highly skilled speakers
 
-#### Học hỏi từ quá trình xây dựng sản phẩm
+- Speakers from technology companies and AWS communities shared **real-world experiences and best practices**.
+- Their stories helped me understand the working environment of multinational companies and the expectations for technology professionals.
 
-- Hiểu rằng việc hoàn thành một sản phẩm có thể hoạt động quan trọng hơn việc theo đuổi một ý tưởng quá lớn.
-- Nhận ra tầm quan trọng của việc xác định phạm vi dự án ngay từ đầu.
-- Học được cách biến ý tưởng thành sản phẩm thực tế thông qua từng bước phát triển.
+#### Hands-on technical exposure
 
-#### Trải nghiệm kỹ thuật thực tế
+- Learned about the real responsibilities of DevOps Engineers in enterprise environments.
+- Understood how Data Analytics Engineers use data to analyze business operations and solve problems.
+- Gained awareness of the importance of technical fundamentals and practical experience.
 
-- Tìm hiểu cách ứng dụng AI Agent và Amazon Bedrock trong việc xây dựng các hệ thống thông minh.
-- Hiểu hơn về quá trình thiết kế kiến trúc cloud và lựa chọn dịch vụ AWS.
-- Nhận thức được vai trò của việc tối ưu chi phí khi phát triển ứng dụng AI.
+#### Developing professional skills
 
-#### Kết nối và trao đổi
+- Improved my understanding of critical thinking, communication, and problem-solving skills.
+- Learned that successful engineers need both technical expertise and the ability to collaborate with others.
+- Recognized the importance of continuous learning in the rapidly changing technology industry.
 
-- Sự kiện tạo cơ hội làm việc cùng các thành viên có nhiều nền tảng kỹ thuật khác nhau.
-- Học hỏi kinh nghiệm từ cộng đồng công nghệ và những người tham gia khác.
-- Mở rộng góc nhìn về cách xây dựng sản phẩm trong môi trường thực tế.
+#### Networking and discussions
 
-#### Bài học rút ra
+- The event provided opportunities to connect with technology communities and experienced professionals.
+- Learned from different career journeys and gained more motivation for personal development.
+- Expanded my understanding of industry expectations and future career directions.
 
-- Thành công trong công nghệ không chỉ đến từ việc sử dụng công cụ mới mà còn nằm ở khả năng giải quyết vấn đề.
-- Agentic AI mở ra nhiều cơ hội để tự động hóa và nâng cao hiệu quả làm việc.
-- Tinh thần học hỏi, khả năng thích nghi và làm việc nhóm là những yếu tố quan trọng để phát triển trong ngành công nghệ.
+#### Lessons learned
 
-#### Một số hình ảnh khi tham gia sự kiện
+- Technology success comes from understanding fundamentals, not only using tools.
+- A clear career roadmap and continuous improvement are essential for long-term growth.
+- Asking the right questions and understanding problems are important skills for every engineer.
 
-* Thêm các hình ảnh của các bạn tại đây
-
-![Image](/fcj-workshop-template/images/ev2.png)
+#### Some event photos
 
 
-> Tổng thể, sự kiện không chỉ giúp tôi nâng cao kiến thức về AI, AWS và phát triển sản phẩm mà còn rèn luyện khả năng làm việc dưới áp lực, tư duy giải quyết vấn đề và biến những ý tưởng công nghệ thành các sản phẩm có giá trị thực tế.
+![Image](/fcj-workshop-template/images/ev1.png)
+![Image](/fcj-workshop-template/images/ev12.png)
+
+> Overall, the event provided not only technical knowledge but also changed my perspective on career development, professional mindset, and the importance of combining technical skills with communication and problem-solving abilities in an international technology environment.

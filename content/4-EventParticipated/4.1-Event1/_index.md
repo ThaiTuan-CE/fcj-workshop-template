@@ -1,6 +1,6 @@
 ---
 title: "Event 1"
-date: 2026-07-31
+date: 2026-06-16
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
@@ -146,9 +146,8 @@ Attending the **“FCAJ & First Cloud AI Journey Meetup”** workshop was a valu
 
 #### Some event photos
 
-<div class="image-gallery">
-  <img src="/images/ev1.jpg" alt="Image of participating in FCAJ event 1" />
-  <img src="/images/ev12.jpg" alt="Image of participating in FCAJ event 1" />
-</div>
+
+![Image](/fcj-workshop-template/images/ev1.png)
+![Image](/fcj-workshop-template/images/ev12.png)
 
 > Overall, the event provided not only technical knowledge but also changed my perspective on career development, professional mindset, and the importance of combining technical skills with communication and problem-solving abilities in an international technology environment.
