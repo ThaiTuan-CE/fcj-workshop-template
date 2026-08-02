@@ -1,6 +1,6 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2026-07-25
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
@@ -112,8 +112,7 @@ Tham gia **Agentic AI Build Week (AABW) & Hackathon** là một trải nghiệm 
 
 * Thêm các hình ảnh của các bạn tại đây
 
-<div class="image-gallery">
-  <img src="/images/ev2.jpg" alt="Hình ảnh tham gia Event 2" />
-</div>
+![Image](/fcj-workshop-template/images/ev2.png)
+
 
 > Tổng thể, sự kiện không chỉ giúp tôi nâng cao kiến thức về AI, AWS và phát triển sản phẩm mà còn rèn luyện khả năng làm việc dưới áp lực, tư duy giải quyết vấn đề và biến những ý tưởng công nghệ thành các sản phẩm có giá trị thực tế.

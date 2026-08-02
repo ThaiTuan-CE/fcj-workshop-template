@@ -5,7 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-
 # Summary Report: “Agentic AI Build Week (AABW) & Hackathon”
 
 ### Event Objectives
@@ -71,6 +70,4 @@ Participating in the **Agentic AI Build Week & Hackathon** was a valuable hands-
 #### Some Event Photos
 ![Image](/fcj-workshop-template/images/ev2.png)
 
-![Image](/fcj-workshop-template/images/ev1.png)
-![Image](/fcj-workshop-template/images/ev12.png)
 > Overall, the event not only provided valuable knowledge about AWS and AI technologies but also improved my ability to handle pressure, collaborate with teammates, and transform innovative ideas into practical solutions within a limited timeframe.
