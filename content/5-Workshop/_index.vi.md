@@ -2,8 +2,9 @@
 title: "Workshop"
 date: 2026-08-01
 weight: 5
-chapter: true
-pre: "<b>5. </b>"
+chapter: false
+pre: " <b> 5. </b> "
+includeInReport: false
 ---
 
 # Workshop Smart Home IoT

@@ -2,8 +2,14 @@
 title: "Workshop"
 date: 2026-08-01
 weight: 5
+<<<<<<< HEAD
 chapter: true
 pre: "<b>5. </b>"
+=======
+chapter: false
+pre: " <b> 5. </b> "
+includeInReport: false
+>>>>>>> template-repo/main
 ---
 
 # Smart Home IoT Workshop

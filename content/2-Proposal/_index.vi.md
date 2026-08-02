@@ -4,6 +4,7 @@ date: 2026-07-31
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
+includeInReport: false
 ---
 
 # Hệ thống Smart Home IoT trên AWS

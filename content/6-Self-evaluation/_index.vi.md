@@ -4,6 +4,7 @@ date: 2026-07-31
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
+includeInReport: false
 ---
 
 Trong suốt thời gian thực tập từ ngày **15/06/2026** đến ngày **31/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng các kiến thức chuyên môn đã được trang bị tại trường đại học vào môi trường làm việc thực tế.  

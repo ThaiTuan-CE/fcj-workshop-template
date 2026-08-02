@@ -4,6 +4,11 @@ date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
+reportTableColumns:
+  - Thứ
+  - Công việc
+  - Ngày hoàn thành
+reportType: worklog
 ---
 ### Mục tiêu tuần 1:
 

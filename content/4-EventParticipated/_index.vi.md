@@ -4,6 +4,7 @@ date: 2026-06-16
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
+includeInReport: false
 ---
 
 > Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc.

@@ -4,6 +4,16 @@ date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
+includeInReport: true
+reportTableColumns:
+  - Day
+  - Task
+  - Completion Date
+reportHeadings:
+  - Week 1 Objectives
+  - Tasks to be carried out this week
+  - Week 1 Achievements
+reportType: worklog
 ---
 ### Objectives of Week 1:
 
