@@ -1,10 +1,11 @@
 ---
 title: "Event 2"
 date: 2026-07-25
-weight: 4
+weight: 1
 chapter: false
-pre: " <b> 4. </b> "
+pre: " <b> 4.2. </b> "
 ---
+
 
 # Summary Report: “Agentic AI Build Week (AABW) & Hackathon”
 
